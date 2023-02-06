@@ -19,3 +19,17 @@ The Frontend Developer Career Path aims to teach you everything you need to beco
 - [Become a Scrimba Pro member](https://scrimba.com/pricing)
 
 Happy Coding!
+
+
+Algorithm:
+
+create variables to get hold of button clicks and password fields
+
+create function to generate random numbers from given array. Pass the number in array to read its values.
+
+Create for loop which will run for 16 times and store the values in another array.
+
+
+
+
+

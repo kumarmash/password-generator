@@ -10,21 +10,25 @@ body {
 
 main {
   background-color: #1f2937;
-  min-width: 550px;
-  min-height: 550px;
+  width: 550px;
+  /* height: 550px;   */
   margin: 0;
+  
 }
 
 .main-container {
   margin: 115px 52px;
   font-family: "Inter";
+  display: flex;
+  flex-direction: column;
 }
 
 .password-El {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 5rem;
+  gap: 1rem;
+ 
 }
 
 h1 {
@@ -51,6 +55,7 @@ h1 {
 #password-btn{
     margin-top: 51px;
     padding: 9px 17px 9px 15px;
+    width: 191px;
     font-size: 16px;
     font-weight: 500;
     text-align: center;
@@ -68,10 +73,34 @@ h1 {
     margin: 35px 0 ;
 }
 
+
+
 #password1-El , #password2-El {
     width: 211px;
     height: 39px;   
     background-color :#273549;
     border-radius: 6px;
+    color: #55F991;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+}
+
+@media (max-width :28rem) {
+
+  .password-El {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column  ;
+  gap: 6px;
+  }
+
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
